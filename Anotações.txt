@@ -1,0 +1,64 @@
+Guit é CLI = Comand Line interface
+
+Windows 
+
+- cd = navegar entre as pastas cd/...
+- dir = Listar os diretorios na pasta
+- mkdir = Criar pasta
+- del / rmdir = deletar uma pasta
+- cls = limpar
+
+
+Unix (mac e linux)
+
+- cd = navegar entre as pastas cd/... voltar a pasta cd ..
+- ls = Listar os diretorios na pasta
+- mkdir = criar uma pasta
+- rm -rf = deletar uma pasta
+- clear = limpar ou CTRL + L
+
+
+
+SHA1 = Security Hash Algorithm
+conjunto de caracteres de 40 digitos
+unicos.
+
+Ex: openssl sha1 teste.txt 
+
+Objetos basicos Git 
+
+- Blobs = guardado os shas
+- trees = estrutura dos arquivo
+- commits = junta tudo 
+
+Praticando o Git
+
+git init = iniciar repositorio
+git add = mover arquivos e primeiros comandos
+git commit = primeiro commit
+
+ls -a = arquivos ocultos
+
+Criando o autor = 
+git config --global user.email "seu email"
+git config --global user.name danilo ferreira
+
+Criar arquivo .md(markdown) na pasta (programa indicado Typora)
+commit inicial do projeto
+
+git add * = (todas as modificações)
+git add nome_arquivo = so o arquivo que vc quis
+git commit -m = "nome_criterio_seu"
+
+git status = informações 
+mv nome_arquivo ./outro_repositorio/ = comando para mover 
+
+
+adicionar o comando no github pelo git :
+git remote add apelido link_do_github
+git remote -v = Listas os repositorios remotos
+
+empurrar para o github = git push apelido master
+puxar versáo = git pull origin master 
+clonar repositorios = git clone colar o link
+
